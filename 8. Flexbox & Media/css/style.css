@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+header{
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.h-left{
+    display: flex;
+    align-items: center;
+}
+.h-left svg{
+    margin-left: 30px;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-center{
+    padding: 5px 0;
+    backdrop-filter: blur(9px) saturate(139%);
+    -webkit-backdrop-filter: blur(9px) saturate(139%);
+    background-color: rgba(17, 25, 40, 0.65);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.h-center a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 4px 10px;
+    border-radius: 30px;
+}
+
+.h-center a:hover{
+    background-color: #000;
+}
+
+.h-right i{
+    margin-left: 20px;
+}
+
+header i{
+    color: #fff;
+    font-size: 18px;
+}
+
+#First{
+    background-image: url(https://img.redbull.com/images/c_crop,x_0,y_116,h_2133,w_3200/c_fill,w_1920,h_1200/q_auto,f_auto/redbullcom/2020/8/17/pdkoojimxetcxmbg6kjn/summer-active-cool);
+    background-size: cover;
+    background-position: center;
+    padding: 12rem 0;
+}
+
+
+
+.first-text h2{
+    font-size: 65px;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.first-text a{
+    background-color: #db0a40;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 13px 60px;
+    font-weight: bold;
+}
+
+
+#phone-header{
+    position: fixed;
+    width: 100%;
+    display: none;
+    padding: 20px 0;
+}
+
+#phone-header i{
+    color: #fff;
+    font-size: 18px;
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width:576px) {
+    .container{
+        padding: 0 1rem;
+    }
+    header{
+        display: none;
+    }
+    #phone-header{
+        display: block;
+    }
+
+    #First{
+        padding: 20rem 0;
+        background-position: inherit;
+        background-image: url(https://img.redbull.com/images/c_fill,g_auto,w_1920,h_1200/q_auto,f_auto/redbullcom/2022/6/8/swuq0f7wdlnhboqoqitb/azerbaycan-gran-pri);
+    }
+
+    .first-text h2{
+        font-size: 35px;
+    }
+    
+}
+
+
+
+/* header{
+    background-color: blueviolet;
+}
+
+.header-all{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.right a,i{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.right i{
+    display: none;
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box{
+    width: 23%;
+    margin-top: 2rem;
+}
+
+.box img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    background-color: red;
+    color: #fff;
+}
+
+
+@media(max-width:576px) {
+    .box{
+        width: 100%;
+    }
+    h1{
+        font-size: 25px;
+        background-color: blueviolet;
+    }
+
+    header .right a{
+        display: none;
+    }
+    header .right i{
+        display: block;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .box{
+        width: 48%;
+    }
+    h1{
+        font-size: 45px;
+        background-color: rgb(11, 157, 26);
+    }
+}
+
+
+@media (min-width:768px) and (max-width:992px) {
+    .box{
+        width: 30%;
+    }
+} */
